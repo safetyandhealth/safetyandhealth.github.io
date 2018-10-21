@@ -1,0 +1,242 @@
+body {
+      background-color: #5bc0de;
+      background-color: #f2f2f2;
+      width: 100%;
+      height: 100%;
+      color: #1D1D25;
+      font-family: Corbel, Verdana, "Bitstream Vera Sans", sans-serif;
+
+    }
+
+    .mainTop {
+      background-color: #303030;
+      margin-top: 0px;
+      
+      color: #f8f8f8;
+      /*opacity: 0.95;*/
+      border-radius: 7px;
+
+
+    }
+
+    .mainTopText {
+      background-color: #303030;
+      margin-top: 0px;
+      width: auto;
+      height: auto;
+      color: #f8f8f8;
+      border-radius: 5px;
+
+    }
+
+    .mainImg {
+      background-color: white;
+      /*opacity: 0.3;*/
+    }
+
+    #header-nav {
+      background-color: #f3f3f3;
+    }
+
+    #collapsable-nav{
+      background-color: #f3f3f3;
+     border-radius: 5px;
+
+    }
+
+    #collapsable-nav span {
+      color: #6f6f6f;
+      /*color: #303030;*/
+    }
+
+    #collapsable-nav a {
+      color: #6f6f6f;
+    }
+
+    #collapsable-nav li.active {
+      /*background-color: yellow;*/
+    }
+
+    hr.dark {
+      border-top: 3px solid #6f6f6f;
+    }
+
+    hr.light {
+      border-top: 3px solid #303030;
+    }
+    .hidden-sm-up {
+      /*border-top: 3px solid #6f6f6f;*/
+      color: black;
+    }
+
+    .nav-tabs > li > a:hover{
+    background-color: #303136 !important;
+    border: medium none;
+    border-radius: 5px;
+    color:#fff;
+    }
+
+    .mybtn {
+      background-color: #303030;
+      color: #6f6f6f;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .myresume {
+      background-color: #6f6f6f;
+      color: #fff;
+    }
+
+    
+
+
+    /*//////////////// Main Content*/
+    .mainContent  {
+      border: 3px solid #303030;
+      border-radius: 5px;
+    }
+
+    .jumbotron p {
+      color: #303030;
+      font-size: 16px;
+      /*font-style: italic;*/
+    }
+
+    /*Eduction*/
+    .eduContent {
+      margin-top: 15px;
+      border: 3px solid #cccccc;
+      padding: 0px;
+
+    }
+    .panel-heading{
+      background-color: black;
+      color: red;
+    }
+   /* .panel-heading h4 {
+      display: inline;
+    }
+    .panel-heading h5 {
+      display: inline;
+      text-align: right;
+    }*/
+     .panel-success {
+      background-color: #cccccc;
+     }
+
+    /*The footer*/
+    .nav-footer {
+       text-align:center;
+       color: yellow;
+       display: inline;
+    }
+    .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    /*vertical-align: top;*/
+  }
+
+  .navbar .navbar-collapse {
+  text-align: center;
+  }
+  #myfooter h6 {
+    color:  #6f6f6f;
+  }
+  #footer li {
+    border-bottom: 1px solid #6f6f6f;
+
+
+  }
+
+  .pubHeader {
+    width: 100%;
+    height: auto;
+    background-color: #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .pubContent button a {
+    color: #6f6f6f
+  }
+
+  .skillsContent .button1 {
+    background-color:  #6f6f6f;
+    margin-top: 10px;
+    color: #f3f3f3
+  }
+   .skillsContent .button2 {
+    background-color: #f3f3f3; 
+    margin-top: 10px;
+    color: #6f6f6f;
+  }
+
+  .skillsContent .inbox1 {
+    background-color: #f3f3f3; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #6f6f6f;
+    width: auto;
+    height: auto;
+    border: 2px solid #6f6f6f;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .skillsContent .inbox2 {
+    background-color: #6f6f6f; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #f3f3f3;
+    width: auto;
+    height: auto;
+    border: 2px solid #f3f3f3;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+
+  @media (min-width: 1200px) {
+
+    #collapsable-nav span {
+      color: #6f6f6f;
+      font-size: 1.4em;
+    }
+    #collapsable-nav a {
+      font-size: 1.4em;
+    }
+
+
+  }
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #collapsable-nav span {
+      color: #6f6f6f;
+      font-size: 1.15em;
+    }
+    #collapsable-nav a {
+      font-size: 1.15em;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+  #collapsable-nav span {
+      color: #6f6f6f;
+      font-size: 1.05em;
+    }
+    #collapsable-nav a {
+      font-size: 1.05em;
+    }
+}
+
+
+
+
+    
